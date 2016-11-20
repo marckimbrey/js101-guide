@@ -1,5 +1,7 @@
 #JS101 Road Map
-An Npm terminal guide for learning javascript with the Bristol JS101 meet up group.
+A terminal guide for learning javascript with the Bristol JS101 meet up group.
+   
+To be release as a npm module when complete.t
 
 ## Usage
 
