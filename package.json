@@ -1,0 +1,11 @@
+{
+  "name": "js101-roadmap",
+  "version": "1.0.0",
+  "description": "JS101 Road map for learning Javascript",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "author": "dt",
+  "license": "ISC"
+}

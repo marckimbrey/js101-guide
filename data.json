@@ -1,0 +1,46 @@
+[
+    {
+      "title": "Welcome",
+      "body": "Welcome to JS101 a Bristol meet up group dedicated to becoming awesome with Javascript"
+    },
+    {
+      "title": "Getting Started",
+      "body": "The journey of a thousand miles starts with a single byte"
+    },
+    {
+      "title": "Books",
+      "body": "Eloquent Javascript, Secrets of a Javascript Ninja, You don't know JS..."
+    },
+    {
+      "title": "Recommended Resources",
+      "body": "Free Code Camp, Node School, Fun Fun Function"
+    },
+    {
+      "title": "Version Control",
+      "body": "Use the souce control Luke!"
+    },
+    {
+      "title": "Package Management",
+      "body": "Nodeschool.io Npm tutorial"
+    },
+    {
+      "title": "React",
+      "body": "Is so hot right now!"
+    },
+    {
+      "title": "Tools",
+      "body": "Pick the right tool for the job..."
+    },
+    {
+      "title": "Testing",
+      "body": "It's not a bug, it's a feature..."
+    },
+    {
+      "title": "Projects",
+      "body": "Roll up your sleeves and get stuck in!"
+    },
+    {
+      "title": "Additional Resources",
+      "body": "Give me MOAR!!!"
+    }
+]
