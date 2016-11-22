@@ -6,7 +6,7 @@ var path = require("path");
 var marked = require('marked');
 var TerminalRenderer = require('marked-terminal');
 var slugify = require('slugify');
-var BASE_DIR = path.join(__dirname, '/guides');
+var GUIDE_DIR = path.join(__dirname, '/guides/');
 var GUIDE_FILENAME = 'guide.md';
 
 marked.setOptions({
@@ -17,12 +17,6 @@ marked.setOptions({
 menu.reset();
 menu.write('JS101 ROADMAP\n');
 menu.write('-------------------------\n');
-
-function getDirectories(srcpath) {
-  return fs.readdirSync(srcpath).filter(function(file) {
-    return fs.statSync(path.join(srcpath, file)).isDirectory();
-  });
-}
 
 guides.forEach(function(guide){
     menu.add(guide);
@@ -42,7 +36,10 @@ menu.on('close', function () {
 
 function printGuide(label) {
     var guideDir = slugify(label).toLowerCase();
-    var guideFilename = path.join(BASE_DIR, guideDir + '/' + GUIDE_FILENAME);
+    var guideFilename = path.join(GUIDE_DIR, guideDir + '/' + GUIDE_FILENAME);
+
+    // console.log('guideFilename', guideFilename)
+    // return
 
     fs.readFile(guideFilename, 'utf8', function(err, contents) {
         console.log(marked(contents));
