@@ -7,5 +7,11 @@
   },
   "main": "index.js",
   "author": "dt",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "marked": "^0.3.6",
+    "marked-terminal": "^2.0.0",
+    "slug": "^0.9.1",
+    "slugify": "^1.0.2"
+  }
 }

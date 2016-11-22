@@ -1,0 +1,3 @@
+# Welcome
+
+Welcome to the JS101 guide...
