@@ -1,4 +1,4 @@
-#JS101 Road Map
+#JS101 Guide
 A terminal guide for learning javascript with the [CodeHub Bristol](https://www.meetup.com/CodeHub-Bristol/) Javascript 101 meet up group.
 
 To be release as a npm module when complete.
