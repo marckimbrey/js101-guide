@@ -15,7 +15,7 @@ marked.setOptions({
 });
 
 menu.reset();
-menu.write('JS101 ROADMAP\n');
+menu.write('JS101 GUIDE\n');
 menu.write('-------------------------\n');
 
 guides.forEach(function(guide){
@@ -37,9 +37,6 @@ menu.on('close', function () {
 function printGuide(label) {
     var guideDir = slugify(label).toLowerCase();
     var guideFilename = path.join(GUIDE_DIR, guideDir + '/' + GUIDE_FILENAME);
-
-    // console.log('guideFilename', guideFilename)
-    // return
 
     fs.readFile(guideFilename, 'utf8', function(err, contents) {
         console.log(marked(contents));

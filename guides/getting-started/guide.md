@@ -7,12 +7,12 @@
                           /____/
 ```
 
-The journey of a thousand miles starts with a single byte.
+# The journey of a thousand miles starts with a single byte.
 
 Contender ready?
 
 Run the following command:
 
 ```
-node question.js
+npm run getting-started
 ```

@@ -8,9 +8,11 @@
                                                       /___/                   
 ```
 
-Welcome to the JS101 guide...
+# Welcome to JS101!
 
-Create a file called welcome.js with the following code:
+The world of Javascript is a big place.  Let us help you get on the right path...
+
+Create a file called hello.js and save the following code:
 
 ```
 console.log('hello javascript')
@@ -19,5 +21,5 @@ console.log('hello javascript')
 To run your solution run the following command:
 
 ```
-npm run reply welcome
+npm run hello
 ```

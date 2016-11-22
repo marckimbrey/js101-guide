@@ -1,12 +1,12 @@
 #JS101 Road Map
-A terminal guide for learning javascript with the Bristol JS101 meet up group.
+A terminal guide for learning javascript with the [CodeHub Bristol](https://www.meetup.com/CodeHub-Bristol/) Javascript 101 meet up group.
 
-To be release as a npm module when complete.t
+To be release as a npm module when complete.
 
 ## Usage
 
 ```
-git clone git@github.com:rinse0ut/js101-roadmap.git
+git clone git@github.com:rinse0ut/js101-guide.git
 cd js101-roadmap
 npm install
 npm start
@@ -22,3 +22,4 @@ This package is inspired by the [node school workshops](https://nodeschool.io/#w
 
 ## TODO
 Create guides
+npm module

@@ -1,5 +1,5 @@
 const readline = require('readline');
-var chalk = require("chalk");
+const chalk = require("chalk");
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -12,13 +12,13 @@ console.log('You take the ' + chalk.red('red pill') + ', you stay in Wonderland,
 rl.question('Would you like the ' + chalk.blue('blue pill') + ' or the ' + chalk.red('red pill') + '?\n', (answer) => {
   switch (answer) {
       case 'red':
-          console.log(chalk.yellow('\nWell done! you have made a wise decision!\n'));
+          console.log(chalk.yellow('\nWell done! you made a wise decision!\n'));
           console.log(chalk.yellow('Loading matrix...'));
           delayedRequire("matrix-rain");
           break;
       case 'blue':
           console.log(chalk.red('\nOh noes! you\'re not ready.  Come back later!\n'));
-          console.log(chalk.red('Wait for it...'));
+          console.log(chalk.red('Hang on a moment...'));
           delayedRequire('nyan');
           break;
       default:
