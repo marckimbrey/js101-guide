@@ -8,7 +8,7 @@ var TerminalRenderer = require('marked-terminal');
 var slugify = require('slugify');
 var GUIDE_DIR = path.join(__dirname, '/guides/');
 var GUIDE_FILENAME = 'guide.md';
-
+ 
 marked.setOptions({
   // Define custom renderer
   renderer: new TerminalRenderer()
