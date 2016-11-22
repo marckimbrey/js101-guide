@@ -14,7 +14,7 @@ npm start
 
 You'll see the menu:  
 
-![alt tag](https://raw.githubusercontent.com/rinse0ut/js101-guide/master/img/guide.png)
+![alt tag](https://raw.githubusercontent.com/rinse0ut/js101-guide/master/img/screenshot.png)
 
 
 ## Credits
