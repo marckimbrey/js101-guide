@@ -12,7 +12,7 @@
 
 The world of Javascript is a big place.  Let us help you get on the right path...
 
-Create a file called hello.js and save the following code:
+Create a file called hello.js the following code:
 
 ```
 console.log('hello javascript')
