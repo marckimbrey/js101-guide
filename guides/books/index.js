@@ -6,6 +6,7 @@ var guide = new Guide(__dirname)
 
 guide.run = function() {
     this.renderReadMe(() => {
+        console.log('BOOKS CALLBACK.............................BOOKS CB')
         // const questionPath = path.join(__dirname, 'question.js')
         // exec('node ' + questionPath, (error, stdout, stderr) => {
         //   if (error) {
