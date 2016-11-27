@@ -1,10 +1,16 @@
-var Guide = require('../../lib/guide');
-var guide = new Guide(__dirname)
+const Question = require('../../lib/question');
 
-guide.run = function() {
-    this.renderReadMe(() => console.log('cb'))
-    this.openURL('http://secrets-of-js-ninja.com')
-    this.debug()
-}
+const question = new Question()
 
-module.exports = guide
+question.ask('Orly?', (answer) => {
+    switch (answer) {
+        case 'yarly':
+            console.log('YaRly!')
+            break;
+        case 'narly':
+            console.log('NaRly!')
+            break;
+        default:
+            console.log('sRsly?')
+    }
+})

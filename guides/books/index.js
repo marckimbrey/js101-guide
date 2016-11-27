@@ -1,47 +1,12 @@
-const path = require("path");
-const exec = require('child_process').exec;
-var Guide = require('../../lib/guide');
-var guide = new Guide(__dirname)
+var Url = require('../../lib/url');
 
+const url = new Url()
 
-guide.run = function() {
-    this.renderReadMe(() => {
-        console.log('BOOKS CALLBACK.............................BOOKS CB')
-        // const questionPath = path.join(__dirname, 'question.js')
-        // exec('node ' + questionPath, (error, stdout, stderr) => {
-        //   if (error) {
-        //     console.error(`exec error: ${error}`);
-        //     return;
-        //   }
-        //   console.log('Q COMPLETE')
-        // });
-    })
-    this.debug()
-}
+const bookUrls = [
+    'http://eloquentjavascript.net',
+    'https://www.manning.com/books/secrets-of-the-javascript-ninja-second-edition',
+    'http://bdcampbell.net/javascript/book/javascript_the_good_parts.pdf',
+    'https://github.com/getify/You-Dont-Know-JS'
+]
 
-module.exports = guide
-
-// process.stdin.resume();
-
-
-// const question = 'wtf?'
-// const answer = 'srsly'
-// rl.question('wtf?', (answer) => {
-//     console.log('ttly')
-// })
-// rl.close();
-
-// process.stdin.setEncoding('utf8');
-// var util = require('util');
-//
-// process.stdin.on('data', function (text) {
-//   console.log('received data:', util.inspect(text));
-//   if (text === 'quit\n') {
-//     done();
-//   }
-// });
-//
-// function done() {
-//   console.log('Now that process.stdin is paused, there is nothing more to do.');
-//   process.exit();
-// }
+bookUrls.forEach((bookUrl) => url.open(bookUrl))
