@@ -8,7 +8,8 @@
     "test:watch": "npm test -- --watch",
     "hello": "node guides/welcome/index.js",
     "getting-started": "node guides/getting-started/index.js",
-    "books": "node guides/books/index.js"
+    "books": "node guides/books/index.js",
+    "example": "node guides/example/index.js"
   },
   "repository": {
     "type": "git",
