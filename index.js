@@ -12,31 +12,3 @@ var GUIDE_DIR = path.join(__dirname, 'guides')
 const gm = new GuideManager(guides, GUIDE_DIR, menu)
 
 gm.runMenu()
-// console.log('gm', gm, gm instanceof GuideManager)
-
-// marked.setOptions({
-//   renderer: new TerminalRenderer()
-// });
-//
-// menu.reset();
-// menu.write('JS101 GUIDE\n');
-// menu.write('-------------------------\n');
-//
-// guides.forEach(function(guide){
-//     menu.add(guide);
-// });
-//
-// menu.on('select', function (label, i) {
-//     const gm = new GuideManager(GUIDE_DIR)
-//     gm.run(label)
-//
-//     // menu.close();
-// });
-// process.stdin.pipe(menu.createStream()).pipe(process.stdout);
-// process.stdin.pipe('foobar').pipe(process.stdout);
-//
-// process.stdin.setRawMode(true);
-// menu.on('close', function () {
-//     process.stdin.setRawMode(false);
-//     process.stdin.end();
-// });
