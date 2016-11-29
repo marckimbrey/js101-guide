@@ -6,10 +6,10 @@ To be release as a npm module when complete.
 ## Usage
 
 ```
-git clone git@github.com:rinse0ut/js101-guide.git
+git clone https://github.com/rinse0ut/js101-guide.git
 cd js101-guide
 npm install
-npm start
+npm --use-strict start
 ```
 
 You'll see the menu:  
