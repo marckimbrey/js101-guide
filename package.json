@@ -9,7 +9,8 @@
     "hello": "node guides/welcome/index.js",
     "getting-started": "node guides/getting-started/index.js",
     "books": "node guides/books/index.js",
-    "example": "node guides/example/index.js"
+    "example": "node guides/example/index.js",
+    "resources": "node guides/recommended-resources/index.js"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,11 @@
     "mock-fs": "^3.12.1",
     "nyan": "^1.0.3",
     "nyansole": "^0.5.1",
-    "slugify": "^1.0.2"
+    "open": "0.0.5",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "slugify": "^1.0.2",
+    "webpack": "^1.13.3"
   },
   "devDependencies": {
     "babel-core": "^6.7.6",
